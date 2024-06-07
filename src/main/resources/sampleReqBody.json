@@ -1,7 +1,10 @@
 {
-  "id": "aa08",
-  "first_name": "Sunday",
-  "last_name": "rag",
+  "id": "e816",
+  "first_name": "sundar",
+  "last_name": "rat",
   "email": "sdsa@s.com",
-  "isPassed": true
+  "isPassed": false,
+  "marks":[
+      93,94,98,99,87
+  ]
 }
