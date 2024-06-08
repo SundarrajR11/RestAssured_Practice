@@ -11,6 +11,18 @@ public class Students {
     private List<Integer> marks;
     private List<Addresses> addresses;
 
+    public Students() {
+    }
+
+    public Students(int id, String firstName, String lastName, String email, boolean isPassed, List<Integer> marks, List<Addresses> addresses) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.isPassed = isPassed;
+        this.marks = marks;
+        this.addresses = addresses;
+    }
 
     public void setAddresses(List<Addresses> addresses){
         this.addresses=addresses;
