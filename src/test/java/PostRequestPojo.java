@@ -47,7 +47,6 @@ public class PostRequestPojo {
                 .all()
                 .body(reqBody)
                 .post("http://localhost:3000/students");
-
         response.prettyPrint();
 
     }

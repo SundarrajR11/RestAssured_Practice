@@ -1,5 +1,10 @@
 package requestBodies;
 
+
+import com.fasterxml.jackson.annotation.JsonGetter;
+import com.fasterxml.jackson.annotation.JsonSetter;
+
+
 public class Addresses {
     private int block;
     private String street;

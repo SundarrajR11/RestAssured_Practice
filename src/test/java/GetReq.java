@@ -7,7 +7,7 @@ public class GetReq {
     @Test
     public void getSample(){
         Response response = given().get("http://localhost:3000/students");
-        System.out.println("response.prettyPrint() = " + response.prettyPrint());
-        System.out.println("response = " + response);
+        response.prettyPrint();
+        System.out.println("response = " + response.asPrettyString());
     }
 }
